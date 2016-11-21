@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2015 Tesla
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+<!-- TeslaCoil -->
+    <string name="teslacoil_title">Настройки Тесла</string>
+    <string name="header_category_teslacoil">Расширенные настройки</string>
+    <string name="teslacoil_summary">Дополнительные настройки прошивки</string>
+
+    <!-- General -->
+    <string name="ok">Ок</string>
+    <string name="reset">Сбросить</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="add">Добавить</string>
+    <string name="enabled">Включено</string>
+    <string name="choose_app">Выбрать приложение</string>
+    <string name="help">Помощь</string>
+    <string name="reset_message">Сбросить все значения по умолчанию?</string>
+    <string name="attention">Внимание</string>
+    <string name="reset">Сбросить</string>
+    <string name="advanced">Расширенные</string>
+    <string name="profiles_add">Добавить...</string>
+    <string name="profile_choose_app">Выбрать приложение</string>
+
+    <!-- TeslaOTA -->
+    <string name="slimota_title">Обновление прошивки</string>
+
+    <!-- About phone screen, Tesla version -->
+    <string name="tesla_version_title">Версия прошивки</string>
+    <string name="tesla_version_default">Неизвестно</string>
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Дата сборки</string>
+    <string name="build_date_default">Неизвестно</string>
+
+    <!-- Density category -->
+    <string name="density_category">Опции плотности экрана</string>
+
+    <!-- Volume adjustment sounds -->
+    <string name="volume_adjust_sounds_title">Громкость регулировки звука</string>
+
+    <!-- Density category -->
+    <string name="density_category">Настройки плотности экрана</string>
+
+    <!-- Lights Settings  -->
+    <string name="lights_settings">Индикация</string>
+
+    <!-- ADB debugging notifications -->
+    <string name="enable_adb_custom">Отладка</string>
+    <string name="enable_adb_summary_custom">Включить интерфейс отладки adb</string>
+    <string name="adb_notify">ADB уведомление</string>
+    <string name="adb_notify_summary">Показывать уведомление когда отладка включена</string>
+    <string name="adb_over_network">ADB по сети</string>
+    <string name="adb_over_network_summary">Enable TCP/IP debugging over network interfaces (Wi\u2011Fi, USB networks). This setting is reset on reboot</string>
+    <string name="adb_over_network_warning">WARNING: When ADB over network is enabled, your phone is open for intrusions on all connected networks!\n\nOnly use this feature when you are connected on trusted networks.\n\nDo you really want to enable this function?</string>
+
+    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <string name="supersu_title">Суперпользователь</string>
+
+    <!-- Superuser -->
+    <string name="superuser_title">Суперпользователь</string>
+
+    <!-- Substratum -->
+    <string name="substratum_title">Темы</string>
+
+    <!-- Volume Steps -->
+    <string name="volume_steps_title">Уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: DTMF</string>
+    <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомление</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сбросить</string>
+    <string name="volume_steps_60">60</string>
+    <string name="volume_steps_45">45</string>
+    <string name="volume_steps_30">30</string>
+    <string name="volume_steps_15">15</string>
+    <string name="volume_steps_7">7</string>
+    <string name="volume_steps_5">5</string>
+
+    <!-- Dashboard options -->
+    <string name="dashboard_category">Опции настроек</string>
+    <string name="dashboard_suggestions_title">Подсказки в настройках</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в настройках включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в настройках выключены</string>
+    <string name="remove_tile_summaries_title">Краткие сводки</string>
+    <string name="remove_tile_summaries_summary">Удалить краткие сводки под пунктами настроек</string>
+    <string name="dashboard_conditions_title">Состояния в настройках</string>
+    <string name="summary_dashboard_conditions_enabled">Состояния в настройках включены</string>
+    <string name="summary_dashboard_conditions_disabled">Состояния в настройках выключены</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начало громкости</string>
+    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
+
+    <!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Пробуждение при подключении</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Включать экран при подключении или отключении источника питания</string>
+
+    <!-- Devicehandler Shortcut actions -->
+    <string name="shortcut_action_none">Нет</string>
+    <string name="shortcut_action_app">Пользовательское приложение</string>
+    <string name="shortcut_action_home">Домой</string>
+    <string name="shortcut_action_back">Назад</string>
+    <string name="shortcut_action_menu">Меню</string>
+    <string name="shortcut_action_ime">Открыть выбор способа ввода</string>
+    <string name="shortcut_action_power_menu">Меню кнопки питания</string>
+    <string name="shortcut_action_recent">Недавние</string>
+    <string name="shortcut_action_power">Выключить экран</string>
+    <string name="shortcut_action_search">Поиск в приложении</string>
+    <string name="shortcut_action_now_on_tap">Now on Tap</string>
+    <string name="shortcut_action_ring_vib">Звук/Вибрация</string>
+    <string name="shortcut_action_ring_silent">Звук/Без звука</string>
+    <string name="shortcut_action_ring_vib_silent">Звук/Вибрация/Без звука</string>
+    <string name="shortcut_action_camera">Камера</string>
+    <string name="shortcut_action_media_next">Музыка - следующий трек</string>
+    <string name="shortcut_action_media_play_pause">Музыка - играть/пауза</string>
+    <string name="shortcut_action_media_previous">Музыка - предыдущий трек</string>
+    <string name="shortcut_action_wake_device">Разбудить устройство</string>
+    <string name="shortcut_action_kill">Завершить приложение</string>
+    <string name="shortcut_action_screenshot">Снимок экрана</string>
+    <string name="shortcut_action_lastapp">Последнее приложение</string>
+    <string name="shortcut_action_notifications">Уведомления</string>
+    <string name="shortcut_action_qs">Панель быстрых настроек</string>
+    <string name="shortcut_action_torch">Фонарик</string>
+    <string name="shortcut_action_longpress">Долгое нажатие:</string>
+    <string name="shortcut_action_select_action_longpress">Выбрать действие при долгом нажатии:</string>
+    <string name="shortcut_action_select_action">Выбрать действие:</string>
+    <string name="shortcut_action_select_action_newaction">Выбрать новое действие:</string>
+    <string name="shortcut_action_reset">Сбросить</string>
+    <string name="shortcut_action_add">Добавить</string>
+    <string name="shortcut_action_reset_message">Сбросить все значения по умолчанию?</string>
+    <string name="shortcut_action_max">Максимальный размер записей достигнут</string>
+    <string name="shortcut_action_warning">Внимание</string>
+    <string name="shortcut_action_warning_message">Невозможно удалить последнее значение</string>
+    <string name="shortcut_action_required_warning_message">Невозможно удалить необходимые кнопки</string>
+    <string name="shortcut_action_disable_message">Disabled\nAdd an entry to enable this feature</string>
+    <string name="shortcut_image_not_valid">The chosen app did not return a valid icon or does not support image cropping. Use another app.</string>
+    <string name="shortcut_duplicate_entry">Выбранное действие не может быть добавлено дважды</string>
+    <string name="shortcut_action_help_shortcut">ярлык</string>
+    <string name="shortcut_action_help_button">кнопка</string>
+    <string name="shortcut_action_help_app">приложение</string>
+    <string name="shortcut_action_help_icon">, при выборе значка появятся варианты настройки</string>
+    <string name="shortcut_action_help_main">To add a %1$s, select the Add icon. Once a %1$s is added, selecting the row will change the target%2$s\n\nTo remove a %1$s, swipe the row horizontally left or right. Re-order a %1$s in the list by vertically dragging the anchor on the left.\n\nTo clear or reset to defaults, select the reset option.</string>
+
+    <!-- Device specific settings -->
+    <string name="screen_off_gesture_settings_title">Жесты при выключенном экране</string>
+
+    <!-- Notification light dialogs -->
+    <string name="edit_light_settings">Редактировать настройки индикации</string>
+    <string name="pulse_speed_title">Длина и скорость пульсации</string>
+    <string name="default_time">Нормально</string>
+    <string name="custom_time">Свои значения</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранное?</string>
+
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Всегда включено</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Коротко</string>
+    <string name="pulse_length_normal">Нормально</string>
+    <string name="pulse_length_long">Долго</string>
+    <string name="pulse_length_very_long">Очень долго</string>
+    <string name="pulse_speed_very_fast">Очень быстро</string>
+    <string name="pulse_speed_fast">Быстро</string>
+    <string name="pulse_speed_normal">Нормально</string>
+    <string name="pulse_speed_slow">Медленно</string>
+    <string name="pulse_speed_very_slow">Очень медленно</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Индикация уведомлений</string>
+    <string name="notificationlight_title">Настройки оповещения светодиодом</string>
+    <string name="notification_light_general_title">Основные</string>
+    <string name="notification_light_applist_title">Приложения</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
+    <string name="notification_light_use_custom">Использовать свои значения</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_missed_call_title">Пропущенный звонок</string>
+    <string name="notification_light_voicemail_title">Голосовая почта</string>
+    <string name="notification_light_screen_on">Оповещения при включенном экране</string>
+    <string name="notification_light_zen_mode">оповещения в режиме "Не беспокоить"</string>
+    <string name="notification_light_use_multiple_leds">Несколько светодиодов</string>
+    <string name="keywords_lights_brightness_level">снизить яркость светодиода</string>
+    <string name="notification_light_automagic">Выбирать цвета автоматически</string>
+
+    <!-- Lights settings, LED notification -->
+    <string name="leds_category_title">Настройки светодиода</string>
+    <string name="battery_light_settings">Индикация батареи</string>
+    <string name="led_notification_title">Настройки индикации</string>
+    <string name="led_notification_text">Уведомление светодиодом включено в настройках</string>
+    <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+
+    <!-- Battery light settings  -->
+    <string name="batterylight_title">Настройки уведомления батареи</string>
+    <string name="battery_light_enable">Включено</string>
+    <string name="battery_low_pulse_title">Пульсировать если батарея разряжена</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Батарея разряжена</string>
+    <string name="battery_light_medium_color_title">Зарядка</string>
+    <string name="battery_light_full_color_title">Заряд батареи (90%)</string>
+    <string name="battery_light_really_full_color_title">Батарея заряжена (100%)</string>
+    <string name="edit_battery_settings">Редактировать настройки батареи</string>
+    <string name="notification_light_general_title">Основные</string>
+    <string name="led_color_green">Зелёный</string>
+    <string name="led_color_red">Красный</string>
+    <string name="led_color_blue">Синий</string>
+
+    <!-- Scramble PIN Layout on Lockscreen -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Связать громкость звонка и уведомления</string>
+    <string name="notification_volume_option_title">Громкость уведомления</string>
+    <string name="ring_notification_volume_option_title">Громкость звонка и уведомления</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">разблокировать автоматически при верно введенном Пин - коде/пароле</string>
+
+    <!-- App details: open play store link if app is user installed -->
+   <string name="app_play_store">Google Play</string>
+
+    <!-- App Ops Settings -->
+    <!-- [CHAR LIMIT=NONE] App ops settings title, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings">Разрешения приложений</string>
+    <!-- [CHAR LIMIT=NONE] App ops settings summary, on main settings screen. If clicked, the user is taken to a settings screen for app operations -->
+    <string name="app_ops_settings_summary">Просмотреть или изменить разрешения приложений</string>
+
+    <!-- Changelog -->
+    <string name="changelog_tesla_title">Список изменений</string>
+    <string name="changelog_tesla_error">Невозможно загрузить список изменений</string>
+    
+    <!-- About Tesla -->
+    <string name="tesla_menu_about">О прошивке</string>
+
+    <!-- Sound & display settings screen, setting option name to change the user interface theme [CHAR LIMIT=30] -->
+    <string name="night_mode_title">Тема</string>
+    <!-- Sound & display settings screen, setting option summary to change the user interface theme [CHAR LIMIT=100] -->
+    <string name="night_mode_summary">%s</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a light-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_no">Светлая</string>
+    <!-- Sound & display settings screen, theme setting value to prefer a dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_yes">Тёмная</string>
+    <!-- Sound & display settings screen, theme setting value to automatically switch between a light- or dark-colored user interface [CHAR LIMIT=30] -->
+    <string name="night_mode_auto">Автоматически</string>
+    <string name="keywords_display_night_mode">dark theme night mode dim screen invert brightness</string>
+
+</resources>
